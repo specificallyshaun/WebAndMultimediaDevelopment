@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WARNER BROS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <a href="./index.html" class="logo">
+        <img src="images/warner bros.jpeg" alt="warner bros logo">
+      </a>
+      
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="index.html"  class="current">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="tvshows.html">Tvshows</a>
+        <a href="gamesandapps.html">Apps and Games</a>
+        <a href="collections.html">Collection</a>
+        <a href="feedback.html">Feedback</a>
+      </div>
+
+      <input type="search" placeholder="search" class="search">
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
+    <section class="section-main">
+      <h1>WARNER BROS</h1>
+      <p>Home of Warner Bros Movies, TV Shows and Video Games including Harry Potter, DC Comics and more!</p>
+    </section>  
+    </section>
+
+
+    <!-------script for sticky navigation bar---------->
+    <script type="text/javascript">
+    //javascript for navigation bar effect on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+    //javascript for responsive navigation sidebar menu
+    var menu = document.querySelector('.menu');
+    var menuBtn = document.querySelector('.menu-btn');
+    var closeBtn = document.querySelector('.close-btn');
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add('active');
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove('active');
+    });
+    </script>
+   <!----------script ends------------------->
+
+  </body>
+</html>
+
+<footer>
+  <div class="social">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <ul class="list">
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+     <li>
+      <a href="movies.html">Movies</a>
+    </li>
+     <li>
+      <a href="tvshows.html">Tv Shows</a>
+    </li>
+     <li>
+      <a href="feedback.html">Feedback</a>
+    </li>
+    <li>
+      <a href="collections.html">Collections</a>
+    </li>
+    <li>
+      <a href="gamesandapps.html">Games and Apps</a>
+    </li>
+  </ul>
+  <p class="copyright">WARNER BROS @ 2023</p>
+</footer>
+
