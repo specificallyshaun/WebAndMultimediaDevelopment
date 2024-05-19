@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WARNER BROS|FANTASY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+        <a href="./index.html" class="logo">
+            <img src="images/warner bros.jpeg" alt="warner bros logo">
+          </a>
+          
+          <div class="menu">
+            <div class="btn">
+              <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html"  class="current">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="tvshows.html">Tvshows</a>
+            <a href="gamesandapps.html">Apps and Games</a>
+            <a href="collections.html">Collection</a>
+            <a href="feedback.html">Feedback</a>
+          </div>
+    
+          <input type="search" placeholder="search" class="search">
+          <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+          </div>
+    
+    </header>
+
+
+
+    <script type="text/javascript">
+    //javascript for navigation bar effect on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+    //javascript for responsive navigation sidebar menu
+    var menu = document.querySelector('.menu');
+    var menuBtn = document.querySelector('.menu-btn');
+    var closeBtn = document.querySelector('.close-btn');
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add('active');
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove('active');
+    });
+    </script>
+
+
+
+    <div class = "wrapper">
+        <div class = "container">
+            <div class = "title">
+                <h1>Fantasy tv shows</h1>
+            </div>
+
+           <div class = "movie">
+                <div class = "movie-container">
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/Sweet Tooth.jpeg" alt = "Sweet tooth">
+                            <div>
+                                <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Sweet tooth </a>
+                            <p class = "date">available on <span>10 August 2023</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/titans.jpeg" alt = "titans">
+                            <div>
+                                 <button><a href="watchlist.html"></a>Add to Watchlist</button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">titans</a>
+                            <p class = "date">available on<span>19 June 2023</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/the flash.jpeg" alt = "The Flash">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">The Flash</a>
+                            <p class = "date">Available on <span>22 July 2022</span></p>
+                            
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images2/lucifer.jpeg" alt = "Lucifer">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Lucifer</a>
+                            <p class = "date">available on<span>12 August 2022</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/teen wolf.jpeg" alt = "Teen Wolf">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Teen Wolf</a>
+                            <p class = "date">available on <span>15 October 2022</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/tale of nine.jpeg" alt = "Tale of the Nine Tailed">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Tale of the Nine Tailed</a>
+                            <p class = "date">available on <span>13 october 2022</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/shadow and bone.jpeg" alt = "Shadow and Bone">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Shadow and Bone</a>
+                            <p class = "date">on<span>22 July 2022</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images2/Carnival Row (2019).jpeg" alt = "Carnival Row">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Carnival Row</a>
+                            <p class = "date">on<span>25 November</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/supernatural.jpeg" alt = "SuperNatural ">
+                            <div>
+                                <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">SuperNatural </a>
+                            <p class = "date">on <span>16 October 2022</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images2/Cursed.jpeg" alt = "Cursed">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Cursed</a>
+                            <p class = "date">on <span>05 August 2022</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <section class="others">
+        <div class="other-categories">
+             <a href="thrillertvshows.html">Thriller</a>
+        <a href="romancetvshows.html">Romance</a>
+        <a href="horrortvshows.html">Horror</a>
+        <a href="actiontvshows.html">Action</a>
+        <a href="mysterytvshows.html">Mystery</a>
+        </div>
+    </section>
+
+  </body>
+  </html>
+
+  <footer>
+  <div class="social">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <ul class="list">
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+     <li>
+      <a href="movies.html">Movies</a>
+    </li>
+     <li>
+      <a href="tvshows.html">Tv Shows</a>
+    </li>
+     <li>
+      <a href="feedback.html">Feedback</a>
+    </li>
+    <li>
+      <a href="collections.html">Collections</a>
+    </li>
+    <li>
+      <a href="gamesandapps.html">Games and Apps</a>
+    </li>
+  </ul>
+  <p class="copyright">WARNER BROS @ 2023</p>
+</footer>

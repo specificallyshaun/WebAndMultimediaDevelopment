@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WARNER BROS|Thrillers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+        <a href="./index.html" class="logo">
+            <img src="images/warner bros.jpeg" alt="warner bros logo">
+          </a>
+          
+          <div class="menu">
+            <div class="btn">
+              <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html"  class="current">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="tvshows.html">Tvshows</a>
+            <a href="gamesandapps.html">Apps and Games</a>
+            <a href="collections.html">Collection</a>
+            <a href="feedback.html">Feedback</a>
+          </div>
+    
+          <input type="search" placeholder="search" class="search">
+          <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+          </div>
+    
+    </header>
+
+
+
+    <script type="text/javascript">
+    //javascript for navigation bar effect on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+    //javascript for responsive navigation sidebar menu
+    var menu = document.querySelector('.menu');
+    var menuBtn = document.querySelector('.menu-btn');
+    var closeBtn = document.querySelector('.close-btn');
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add('active');
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove('active');
+    });
+    </script>
+
+
+
+    <div class = "wrapper">
+        <div class = "container">
+            <div class = "title">
+                <h1>Thriller Movies</h1>
+            </div>
+
+           <div class = "movie">
+                <div class = "movie-container">
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/thriller1.jpg" alt = "gamer">
+                            <div>
+                                <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Gamer</a>
+                            <p class = "date">available on <span>10 August 2022</span><br>
+                            <span>Produced by John Dancho</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/thriller2.jpg" alt = "spiderman">
+                            <div>
+                                <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Spiderman</a>
+                            <p class = "date">available on<span>19 June 2022</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/thriller3.jpg" alt = "bloodshot">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Bloodshot</a>
+                            <p class = "date">Available on <span>22 July 2022</span></p>
+                            
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/thriller4.jpg" alt = "avengers">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Avengers</a>
+                            <p class = "date">available on<span>12 August 2022</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/thriller5.jpg" alt = "morbius">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Morbius </a>
+                            <p class = "date">available on <span>15 October 2022</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/thriller6.jpg" alt = "popeye">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Popeye </a>
+                            <p class = "date">available on <span>13 october 2022</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/thriller7.jpg" alt = "secrets dumbledore">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Secrets Dumbledore</a>
+                            <p class = "date">on<span>22 July 2022</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/thriller8.jpg" alt = "endless">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Endless</a>
+                            <p class = "date">on<span>25 November</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/thriller9.jpg" alt = "Tomb-raider">
+                            <div>
+                                <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Tomb Raider </a>
+                            <p class = "date">on <span>16 October 2022</span></p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/thriller10.jpg" alt = "mulan">
+                            <div>
+                                 <button><a href="watchlist.html">Add to Watchlist</a></button>
+                            </div>
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">Mulan</a>
+                            <p class = "date">on <span>05 August 2022</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <section class="others">
+        <div class="other-categories">
+             <a href="action.html">Action</a>
+        <a href="romance.html">Romance</a>
+        <a href="horror.html">Horror</a>
+        <a href="fantasy.html">Fantasy</a>
+        <a href="mystery.html">Mystery</a>
+        </div>
+    </section>
+
+
+
+  </body>
+  </html>
+
+  <footer>
+  <div class="social">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <ul class="list">
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+     <li>
+      <a href="movies.html">Movies</a>
+    </li>
+     <li>
+      <a href="tvshows.html">Tv Shows</a>
+    </li>
+     <li>
+      <a href="feedback.html">Feedback</a>
+    </li>
+    <li>
+      <a href="collections.html">Collections</a>
+    </li>
+    <li>
+      <a href="gamesandapps.html">Games and Apps</a>
+    </li>
+  </ul>
+  <p class="copyright">WARNER BROS @ 2023</p>
+</footer>
+
